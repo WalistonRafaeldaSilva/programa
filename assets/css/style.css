@@ -1,11 +1,52 @@
-:root{
+:root {
     --bg: #d4d8dc;
-    --border: #f4a937;
+    --font-h1: #31353E;
+    --font-small: #4C4F57;
+    --img-bg: #fff;
+    --img-bg2: #f1f1f1;
+    --border: #F4A937;
 }
 
 body {
-    background: var(--bg);
+    background-color: var(--bg);
     border-bottom: 10px solid var(--border);
     border-right: 10px solid var(--border);
-    font-family: "ubuntu"
+    font-family: 'ubuntu';
+}
+
+.portifolio-imagem {
+    width: 227px;
+    height: 227px;
+    background-color: var(--img-bg);
+    border-radius: 100%;
+    box-shadow: 0 6px 12px rgba(244, 169, 55, 0.38);
+}
+
+.portifolio-imagem__center {
+    width: 217px;
+    height: 217px;
+    border-radius: 100%;
+    margin: 5px 0 0 5px;
+    border: 1px solid var(--img-border);
+    background-color: var(--img-bg2);
+}
+
+.portifolio-name {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--font-h1);
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+.portifolio-role {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--font-small);
+}
+
+.portifolio-contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
 }
