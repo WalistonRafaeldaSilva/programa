@@ -1,0 +1,11 @@
+:root{
+    --bg: #d4d8dc;
+    --border: #f4a937;
+}
+
+body {
+    background: var(--bg);
+    border-bottom: 10px solid var(--border);
+    border-right: 10px solid var(--border);
+    font-family: "ubuntu"
+}
